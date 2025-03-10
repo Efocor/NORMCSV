@@ -1,0 +1,20 @@
+# requirements.txt
+
+# Manejo de datos
+pandas>=2.0.0
+openpyxl>=3.1.0  # Para soporte de archivos Excel
+xlrd>=2.0.1      # Para archivos Excel antiguos (.xls)
+
+# Procesamiento de texto
+unidecode>=1.3.6
+
+# GUI
+tkinter  # Generalmente viene con Python, pero lo incluimos por completitud
+
+# Para crear el ejecutable
+pyinstaller>=6.0.0
+
+# Dependencias opcionales pero recomendadas
+numpy>=1.24.0    # Requerido por pandas
+python-dateutil>=2.8.2  # Para manejo de fechas
+pytz>=2023.3     # Para manejo de zonas horarias
